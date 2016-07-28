@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97F9F0A91D4A01400031C9D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9F0A81D4A01400031C9D7 /* AppDelegate.swift */; };
+		97F9F0AE1D4A01400031C9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F9F0AC1D4A01400031C9D7 /* Main.storyboard */; };
+		97F9F0B01D4A01400031C9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F9F0AF1D4A01400031C9D7 /* Assets.xcassets */; };
+		97F9F0B31D4A01400031C9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F9F0B11D4A01400031C9D7 /* LaunchScreen.storyboard */; };
+		97F9F0BF1D4A092B0031C9D7 /* ScrollNavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9F0BE1D4A092B0031C9D7 /* ScrollNavBarController.swift */; };
+		97F9F0C11D4A09410031C9D7 /* HideNavBarColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9F0C01D4A09410031C9D7 /* HideNavBarColorViewController.swift */; };
+		97F9F0C51D4A09A10031C9D7 /* ScrollNavBarAndStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9F0C41D4A09A10031C9D7 /* ScrollNavBarAndStateViewController.swift */; };
+		97F9F0C91D4A160C0031C9D7 /* UINavigationBar+WCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9F0C81D4A160C0031C9D7 /* UINavigationBar+WCL.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97F9F0A51D4A01400031C9D7 /* WCLHideNavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCLHideNavBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F9F0A81D4A01400031C9D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97F9F0AD1D4A01400031C9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F9F0AF1D4A01400031C9D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F9F0B21D4A01400031C9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F9F0B41D4A01400031C9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F9F0BE1D4A092B0031C9D7 /* ScrollNavBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollNavBarController.swift; sourceTree = "<group>"; };
+		97F9F0C01D4A09410031C9D7 /* HideNavBarColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideNavBarColorViewController.swift; sourceTree = "<group>"; };
+		97F9F0C41D4A09A10031C9D7 /* ScrollNavBarAndStateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollNavBarAndStateViewController.swift; sourceTree = "<group>"; };
+		97F9F0C81D4A160C0031C9D7 /* UINavigationBar+WCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+WCL.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F9F0A21D4A01400031C9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97F9F09C1D4A01400031C9D7 = {
+			isa = PBXGroup;
+			children = (
+				97F9F0A71D4A01400031C9D7 /* WCLHideNavBar */,
+				97F9F0A61D4A01400031C9D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97F9F0A61D4A01400031C9D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F9F0A51D4A01400031C9D7 /* WCLHideNavBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F9F0A71D4A01400031C9D7 /* WCLHideNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				97F9F0C81D4A160C0031C9D7 /* UINavigationBar+WCL.swift */,
+				97F9F0A81D4A01400031C9D7 /* AppDelegate.swift */,
+				97F9F0C01D4A09410031C9D7 /* HideNavBarColorViewController.swift */,
+				97F9F0BE1D4A092B0031C9D7 /* ScrollNavBarController.swift */,
+				97F9F0C41D4A09A10031C9D7 /* ScrollNavBarAndStateViewController.swift */,
+				97F9F0AC1D4A01400031C9D7 /* Main.storyboard */,
+				97F9F0AF1D4A01400031C9D7 /* Assets.xcassets */,
+				97F9F0B11D4A01400031C9D7 /* LaunchScreen.storyboard */,
+				97F9F0B41D4A01400031C9D7 /* Info.plist */,
+			);
+			path = WCLHideNavBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F9F0A41D4A01400031C9D7 /* WCLHideNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F9F0B71D4A01400031C9D7 /* Build configuration list for PBXNativeTarget "WCLHideNavBar" */;
+			buildPhases = (
+				97F9F0A11D4A01400031C9D7 /* Sources */,
+				97F9F0A21D4A01400031C9D7 /* Frameworks */,
+				97F9F0A31D4A01400031C9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCLHideNavBar;
+			productName = WCLHideNavBar;
+			productReference = 97F9F0A51D4A01400031C9D7 /* WCLHideNavBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F9F09D1D4A01400031C9D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王崇磊";
+				TargetAttributes = {
+					97F9F0A41D4A01400031C9D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 97F9F0A01D4A01400031C9D7 /* Build configuration list for PBXProject "WCLHideNavBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F9F09C1D4A01400031C9D7;
+			productRefGroup = 97F9F0A61D4A01400031C9D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F9F0A41D4A01400031C9D7 /* WCLHideNavBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F9F0A31D4A01400031C9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F9F0B31D4A01400031C9D7 /* LaunchScreen.storyboard in Resources */,
+				97F9F0B01D4A01400031C9D7 /* Assets.xcassets in Resources */,
+				97F9F0AE1D4A01400031C9D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F9F0A11D4A01400031C9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F9F0A91D4A01400031C9D7 /* AppDelegate.swift in Sources */,
+				97F9F0BF1D4A092B0031C9D7 /* ScrollNavBarController.swift in Sources */,
+				97F9F0C11D4A09410031C9D7 /* HideNavBarColorViewController.swift in Sources */,
+				97F9F0C91D4A160C0031C9D7 /* UINavigationBar+WCL.swift in Sources */,
+				97F9F0C51D4A09A10031C9D7 /* ScrollNavBarAndStateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97F9F0AC1D4A01400031C9D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F9F0AD1D4A01400031C9D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F9F0B11D4A01400031C9D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F9F0B21D4A01400031C9D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F9F0B51D4A01400031C9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97F9F0B61D4A01400031C9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F9F0B81D4A01400031C9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WCLHideNavBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLHideNavBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97F9F0B91D4A01400031C9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WCLHideNavBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLHideNavBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F9F0A01D4A01400031C9D7 /* Build configuration list for PBXProject "WCLHideNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F9F0B51D4A01400031C9D7 /* Debug */,
+				97F9F0B61D4A01400031C9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F9F0B71D4A01400031C9D7 /* Build configuration list for PBXNativeTarget "WCLHideNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F9F0B81D4A01400031C9D7 /* Debug */,
+				97F9F0B91D4A01400031C9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F9F09D1D4A01400031C9D7 /* Project object */;
+}
